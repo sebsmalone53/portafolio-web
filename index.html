@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sebastián Díaz - Professional Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@300;400;500;600&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            color: #1a1a1a;
+            background-color: #ffffff;
+        }
+        
+        h1, h2, h3, h4 {
+            font-family: 'Playfair Display', serif;
+        }
+
+        .btn-solid {
+            background-color: #1a1a1a;
+            color: #ffffff;
+            border: 2px solid #1a1a1a;
+        }
+        
+        .btn-solid:hover {
+            background-color: #333333;
+            border-color: #333333;
+        }
+
+        .btn-outline {
+            background-color: transparent;
+            color: #1a1a1a;
+            border: 2px solid #1a1a1a;
+        }
+
+        .btn-outline:hover {
+            background-color: #f9fafb;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <section class="min-h-screen flex flex-col md:flex-row items-stretch">
+        
+        <div class="w-full md:w-1/2 h-[50vh] md:h-screen bg-[#1c2c44]">
+            <img src="foto-sebastian.jpeg" alt="Sebastián Díaz" class="w-full h-full object-cover object-top">
+        </div>
+
+        <div class="w-full md:w-1/2 flex flex-col justify-center px-8 py-16 md:px-20 lg:px-24 bg-white">
+            <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight mb-8 text-gray-900">
+                Hello,<br>I am Sebastián
+            </h1>
+            
+            <div class="mb-12 space-y-2">
+                <p class="text-lg md:text-xl text-gray-600 font-light">Bachelor of Industrial Engineering</p>
+                <p class="text-lg md:text-xl text-gray-600 font-light">Master of Business Management</p>
+            </div>
+            
+            <div class="flex flex-col space-y-4 w-full max-w-md">
+                <a href="https://drive.google.com/file/d/19tfVIvkRU2szzUrlh7N4dEMC7-qd95f0/view?usp=sharing" target="_blank" class="btn-solid text-center py-4 rounded-full font-semibold tracking-widest text-sm uppercase transition duration-300">
+                    Curriculum Vitae
+                </a>
+                
+                <!-- NUEVO BOTÓN DE CONEXIÓN EN LA PRIMERA SECCIÓN -->
+                <a href="#contact" class="btn-solid text-center py-4 rounded-full font-semibold tracking-widest text-sm uppercase transition duration-300 bg-gray-800 border-gray-800">
+                    Let's Connect
+                </a>
+                
+                <a href="#about" class="btn-outline text-center py-4 rounded-full font-semibold tracking-widest text-sm uppercase transition duration-300">
+                    Get to Know Me
+                </a>
+                
+                <a href="#portfolio" class="btn-outline text-center py-4 rounded-full font-semibold tracking-widest text-sm uppercase transition duration-300">
+                    Projects & Experience
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-24 px-8 md:px-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-16">
+            
+            <div class="w-full lg:w-1/2 text-left space-y-6 text-base md:text-lg text-gray-600 font-light leading-relaxed">
+                <h2 class="text-4xl md:text-5xl font-bold mb-8 text-gray-900">Get to Know Me</h2>
+                <p>
+                    Moving away from home to pursue my education and athletic career profoundly shaped my professional DNA. Balancing a rigorous engineering degree with the intense demands of being a varsity American football player and earning three consecutive national championships with Borregos ITESM required far more than physical discipline. It demanded elite time management, deep resilience, and an unwavering sense of responsibility to my team and my scholarship commitments. Navigating the challenges of being an out-of-state student taught me adaptability and how to consistently thrive outside my comfort zone.
+                </p>
+                <p>
+                    Beyond industrial strategy and operations, I bring a strong technical curiosity to the table. I actively explore the intersection of business and emerging technologies by designing and self-hosting automation workflows and AI agents. This hands-on experience allows me to approach complex operational problems with an innovative, tech-forward mindset, bridging the gap between traditional industry and digital transformation.
+                </p>
+            </div>
+
+            <div class="w-full lg:w-1/2">
+                <div class="grid grid-cols-2 grid-rows-2 gap-4 h-[450px] md:h-[550px]">
+                    <div class="row-span-2 col-span-1 rounded-xl overflow-hidden shadow-md border-2 border-white">
+                        <img src="collage-2.jpg" alt="Academic and Athletic Journey" class="w-full h-full object-cover object-center transition duration-500 hover:scale-105">
+                    </div>
+                    <div class="col-span-1 row-span-1 rounded-xl overflow-hidden shadow-md border-2 border-white">
+                        <img src="collage-1.jpg" alt="Championship and Teamwork" class="w-full h-full object-cover object-center transition duration-500 hover:scale-105">
+                    </div>
+                    <div class="col-span-1 row-span-1 rounded-xl overflow-hidden shadow-md border-2 border-white">
+                        <img src="collage-3.png" alt="Leadership and Innovation" class="w-full h-full object-cover object-center transition duration-500 hover:scale-105">
+                    </div>
+                </div>
+                <p class="text-xs text-gray-400 mt-4 text-center italic">Highlights: Varsity Football, Borregos ITESM, Academic Leadership.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="portfolio" class="py-24 px-8 md:px-24 bg-white">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-4xl md:text-5xl font-bold mb-16 text-center text-gray-900">Projects & Experience</h2>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
+                
+                <div class="space-y-12">
+                    <div>
+                        <h3 class="text-2xl font-bold mb-6 text-gray-900 border-b pb-2">Professional & Operational Experience</h3>
+                        
+                        <div class="mb-8">
+                            <h4 class="text-xl font-semibold text-gray-900">US Market Expansion Strategy (SIMSA)</h4>
+                            <p class="text-gray-600 mt-2 font-light leading-relaxed">Leading research and strategic ideation for a major expansion project into the US market, utilizing Design Thinking to identify unique entry points and consumer pain points. Developing complex financial models to project ROI and operational costs for new US-based logistics hubs. Synthesizing market intelligence into innovative business models to ensure competitive differentiation and alignment with corporate strategy.</p>
+                        </div>
+
+                        <div>
+                            <h4 class="text-xl font-semibold text-gray-900">Foundational Operations Experience (Accudyn de México)</h4>
+                            <p class="text-gray-600 mt-2 font-light leading-relaxed">Gained critical "shop-floor" perspective by managing quality inspection and inventory workflows. Ensured 100% compliance with customer specifications in a high-pressure manufacturing environment.</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="text-2xl font-bold mb-6 text-gray-900 border-b pb-2">Applied Industrial Projects</h3>
+                        
+                        <div class="space-y-6">
+                            <div>
+                                <h4 class="text-lg font-semibold text-gray-900">Logistics Strategy (Ternium)</h4>
+                                <p class="text-gray-600 mt-1 font-light leading-relaxed">Optimized cooling bay logistics by implementing a visual movement tracking system, significantly increasing truck loading throughput and efficiency.</p>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-semibold text-gray-900">Operations Optimization (Hentzen Coatings)</h4>
+                                <p class="text-gray-600 mt-1 font-light leading-relaxed">Redesigned the organization of the painting area using ergonomic and Lean principles, resulting in a 20% increase in production line flow efficiency.</p>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-semibold text-gray-900">Data Analytics (Metalsa)</h4>
+                                <p class="text-gray-600 mt-1 font-light leading-relaxed">Engineered interactive data dashboards for the reliability department, reducing reporting lead times and enabling data-driven maintenance scheduling.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="text-2xl font-bold mb-6 text-gray-900 border-b pb-2">Core Competencies & Added Value</h3>
+                    <div class="bg-gray-50 p-8 border border-gray-100 shadow-sm rounded-xl space-y-8 mt-4">
+                        
+                        <div>
+                            <h4 class="text-gray-900 font-semibold text-lg mb-2">Corporate Strategy & Financial Analysis</h4>
+                            <p class="text-gray-600 font-light leading-relaxed">Structuring market entry strategies and developing complex financial models for cost and ROI projections.</p>
+                        </div>
+                        
+                        <div>
+                            <h4 class="text-gray-900 font-semibold text-lg mb-2">Innovation & Problem Solving</h4>
+                            <p class="text-gray-600 font-light leading-relaxed">Applying Human-Centered Innovation and Creative Problem Solving (Design Thinking) to identify consumer pain points and generate viable competitive advantages.</p>
+                        </div>
+                        
+                        <div>
+                            <h4 class="text-gray-900 font-semibold text-lg mb-2">Operations & Quality Management</h4>
+                            <p class="text-gray-600 font-light leading-relaxed">Optimizing industrial processes, reducing waste, and ensuring compliance through Lean Manufacturing and Agile methodologies.</p>
+                        </div>
+                        
+                        <div>
+                            <h4 class="text-gray-900 font-semibold text-lg mb-2">Execution Under Pressure & Collaborative Leadership</h4>
+                            <p class="text-gray-600 font-light leading-relaxed">Fostering a high-trust collaborative culture to execute complex strategic plans under extreme competitive pressure, integrating cross-functional teamwork.</p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN DE CONTACTO ACTUALIZADA: MÁS GRANDE Y VISIBLE -->
+    <section id="contact" class="py-32 md:py-48 px-8 bg-gray-900 text-white text-center flex flex-col justify-center min-h-[60vh]">
+        <div class="max-w-4xl mx-auto flex flex-col items-center w-full">
+            <h2 class="text-5xl md:text-7xl lg:text-8xl font-bold mb-8">Let's Connect</h2>
+            <p class="text-gray-400 mb-16 text-xl md:text-2xl font-light">Whether for a strategic partnership, project discussion, or professional networking.</p>
+            
+            <a href="mailto:sebastiangdiazg@hotmail.com" class="text-2xl md:text-4xl lg:text-5xl font-semibold hover:text-gray-300 transition duration-300 mb-20 border-b-2 border-gray-700 pb-4 break-all">
+                sebastiangdiazg@hotmail.com
+            </a>
+
+            <div class="flex flex-col sm:flex-row gap-6 w-full justify-center">
+                <a href="https://www.instagram.com/sebsmalone53?igsh=aHFvZDZrdjhsaHow&utm_source=qr" target="_blank" class="w-full sm:w-auto px-12 py-5 border-2 border-white rounded-full hover:bg-white hover:text-gray-900 transition duration-300 text-lg md:text-xl tracking-widest uppercase font-bold shadow-lg">
+                    Instagram
+                </a>
+                <a href="www.linkedin.com/in/gallosebastiandiaz" target="_blank" class="w-full sm:w-auto px-12 py-5 border-2 border-white rounded-full hover:bg-white hover:text-gray-900 transition duration-300 text-lg md:text-xl tracking-widest uppercase font-bold shadow-lg">
+                    LinkedIn
+                </a>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
